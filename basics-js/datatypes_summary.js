@@ -53,3 +53,32 @@ console.log(typeof outsideTemp); // null ka typeof object aata hei
        Object  =>  object
 
  */
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++
+
+//STACK (primitive ke liye use hota) , HEAP (non primitive)
+
+let myName="Suhani"
+
+let anotherName=myName
+anotherName="Ekasu"
+
+console.log(myName)
+console.log(anotherName);
+
+let useOner= {
+    email:"user@protonmail.com",
+    upi:"user@ybl"
+}
+//the user object is created inside a heap 
+// whereas the other created in stack 
+
+let userTwo= userOne
+
+userTwo.email= "abc@gmail.com"
+//here the userTwo email is changed as well as for the userOne...
+
+console.log(userOne.email);
+console.log(userTwo.email);
