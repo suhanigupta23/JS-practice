@@ -1,0 +1,13 @@
+JAVASCRIPT EXECUTE CONTEXT: two ways
+ 1. Global Execution Conetext
+ 2. Function Execution Context
+ 3. Eval Execution Context.     //this way is hei bhi nhi bhi zaroorat nhi hei 
+ 
+  PHASES:
+  1. Memory Creation Phase
+  2. Execution Phase
+
+STEPS:
+1. Global Execution -> this se define karnege
+2. Memory Phase -> collection of all the variables, and se to undefined, function definition inside the given variable of function
+3. Execution Phase -> value collection of the variable from the code, execution context created for the function variables, this box is created everytime in the execution thread and a new variable environment everytime is setted up.
