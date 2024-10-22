@@ -10,4 +10,4 @@ JAVASCRIPT EXECUTE CONTEXT: two ways
 STEPS:
 1. Global Execution -> this se define karnege
 2. Memory Phase -> collection of all the variables, and se to undefined, function definition inside the given variable of function
-3. Execution Phase -> value collection of the variable from the code, execution context created for the function variables, this box is created everytime in the execution thread and a new variable environment everytime is setted up.
+3. Execution Phase -> value collection of the variable from the code, execution context created for the function variables, this box is created everytime in the execution thread and a new variable environment everytime is setted up.After the whole result is found out then this environment is deleted.
